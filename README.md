@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# Chart-JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project intended for working with charts using the Chart.js library in combination with React.
 
-Currently, two official plugins are available:
+## Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The "Chart-JS" project is built using the Chart.js library version 4.4.1 and React. It provides the ability to create various charts and diagrams for data visualization in your web application.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repository to your computer.
+2. Run the command `npm install` to install dependencies.
 
-- Configure the top-level `parserOptions` property like this:
+## Usage
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Start the development mode by running the command `npm run dev`. This will start the development server using Vite.
+2. View the result in your browser at http://localhost:5173.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Command Scenarios
+
+- `npm run dev`: Starts the development mode.
+- `npm run build`: Builds the project for production.
+- `npm run lint`: Checks the code against linting rules.
+- `npm run preview`: Previews the built project before deployment.
+
+## Dependencies
+
+The main dependencies of the project are:
+
+- chart.js: a library for building charts.
+- react: a JavaScript library for building user interfaces.
+- react-chartjs-2: a wrapper for using Chart.js with React.
+- react-dom: a library for manipulating the DOM in React.
+
+Development dependencies include various packages for working with TypeScript, linting, code formatting, styling, etc.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
