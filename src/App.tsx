@@ -1,13 +1,12 @@
-import { Example } from 'src/components/Example.tsx';
-import { LineChart } from 'src/components/LineChart/LineChart.tsx';
-import { VerticalBarChart } from 'src/components/VerticalBarChart/VerticalBarChart.tsx';
+import { LineChart, MultiLineChart, SmoothDoughnutChart, VerticalBarChart } from 'src/components';
 
 import './App.css';
 
 export const App = () => (
     <>
-        <Example />
         <LineChart />
         <VerticalBarChart />
+        <MultiLineChart />
+        <SmoothDoughnutChart />
     </>
 );
